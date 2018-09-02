@@ -3,12 +3,16 @@
     <style name="AppBaseTheme" parent="android:Theme.Material.Light">
         </style>  
           
-    <style name="AppTheme" parent="AppBaseTheme">   
+  <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+<item name="android:colorPrimary">#3F51B5</item>
+		<item name="android:colorPrimaryDark">#3F51B5</item>
+		<item name="android:colorAccent">#3F51B5</item> 
+	    <item name="android:colorButtonNormal">#3F51B5</item>
+       <item name="android:windowTranslucentNavigation">true</item>
+ 	</style>
+         
+    <!--禁用启动图  -->
+    <style name="welcome_theme" parent="android:style/Theme.NoDisplay">
         </style>
-        
-   <style name="welcome_theme" parent="android:Theme.Holo.Light.NoActionBar">
-        <item name="android:windowBackground" >@drawable/welcome</item>
-    </style>
-
             
 </resources>

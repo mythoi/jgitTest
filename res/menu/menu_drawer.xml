@@ -1,0 +1,53 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<item
+        android:id="@+id/drawer_new_proj"
+        android:orderInCategory="81"
+        android:title="新建工程"
+        android:showAsAction="never"/>
+
+	<item
+        android:id="@+id/drawer_new_file"
+        android:orderInCategory="81"
+        android:title="新建文件"
+        android:showAsAction="never"/>
+	
+    <item
+        android:id="@+id/drawer_add_file"
+        android:orderInCategory="81"
+        android:title="添加文件"
+        android:showAsAction="never"/>
+	
+
+    <item
+        android:id="@+id/export_project"
+        android:orderInCategory="81"
+        android:title="导出工程"
+        android:showAsAction="never"/>
+
+    <!--<item
+        android:id="@+id/project_attr"
+        android:orderInCategory="81"
+        android:title="工程属性"
+        app:showAsAction="never"/>-->
+		
+	<item
+        android:id="@+id/import_jar"
+        android:orderInCategory="81"
+        android:title="导入依赖"
+        android:showAsAction="never"/>
+	
+		
+	<item
+        android:id="@+id/refreshJar"
+        android:orderInCategory="81"
+        android:title="刷新导入"
+        android:showAsAction="never"/>
+	
+	<item
+        android:id="@+id/drawer_show_proj"
+        android:orderInCategory="81"
+        android:title="当前工程"
+        android:showAsAction="never"/>
+	
+</menu>
